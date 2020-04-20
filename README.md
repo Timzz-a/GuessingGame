@@ -1,1 +1,1 @@
-# GuessingGame
+# Guesso! the number GuessingGame
