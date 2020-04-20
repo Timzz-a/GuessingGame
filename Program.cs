@@ -87,11 +87,13 @@ namespace Guesso
                 }
                 else if (guessCount == guessLimit2 && trialsLeft2 == 0)
                 {
-                  Console.WriteLine("Game over, You Lose!");
+                  Console.WriteLine("Game over, You Lose!"); 
+                  //Number of trials is exceeded and number not guessed right
                 }
                 else if (secretNum2 == numGuessed)
                 {
-                  Console.WriteLine("Congratulations, you win!");
+                  Console.WriteLine("Congratulations, you win!"); 
+                  //Number has been guessed right within the minimum number of trials required
                 }
             } 
             while (DiffNum == 3 && guessCount < guessLimit3 && secretNum3 != numGuessed)
