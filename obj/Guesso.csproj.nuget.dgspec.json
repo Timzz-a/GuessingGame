@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ayomide Odukale\\Guesso\\Guesso.csproj": {}
+    "C:\\Users\\Ayomide Odukale\\Guesso\\GuessingGame\\Guesso.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ayomide Odukale\\Guesso\\Guesso.csproj": {
+    "C:\\Users\\Ayomide Odukale\\Guesso\\GuessingGame\\Guesso.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayomide Odukale\\Guesso\\Guesso.csproj",
+        "projectUniqueName": "C:\\Users\\Ayomide Odukale\\Guesso\\GuessingGame\\Guesso.csproj",
         "projectName": "Guesso",
-        "projectPath": "C:\\Users\\Ayomide Odukale\\Guesso\\Guesso.csproj",
+        "projectPath": "C:\\Users\\Ayomide Odukale\\Guesso\\GuessingGame\\Guesso.csproj",
         "packagesPath": "C:\\Users\\Ayomide Odukale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayomide Odukale\\Guesso\\obj\\",
+        "outputPath": "C:\\Users\\Ayomide Odukale\\Guesso\\GuessingGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayomide Odukale\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -51,7 +51,8 @@ namespace Guesso
                 Console.WriteLine("Difficulty: " + Difficulty[2] + " Selected");
             }
 
-             while (DiffNum == 1 && guessCount < guessLimit1 && secretNum1 != numGuessed)
+             while (DiffNum == 1 && guessCount < guessLimit1 && secretNum1 != numGuessed) 
+             //The easy difficulty mode
             {
                 Console.Write("Enter a number between 1-10: ");
                 numGuessed = int.Parse(Console.ReadLine());
@@ -75,13 +76,15 @@ namespace Guesso
                 }
             }
 
-             while (DiffNum == 2 && guessCount < guessLimit2 && secretNum2 != numGuessed)
+             while (DiffNum == 2 && guessCount < guessLimit2 && secretNum2 != numGuessed) 
+             //The medium difficulty mode
             {
                 Console.Write("Enter a number between 1-20: ");
                 numGuessed = int.Parse(Console.ReadLine());
                 guessCount++; //number of times the user has guessed
 
-                if (secretNum2 != numGuessed && guessCount != guessLimit2)
+                if (secretNum2 != numGuessed && guessCount != guessLimit2) 
+                //guess count is less than guess limit and secret number has not been gotten
                 {
                   Console.WriteLine("That was wrong. You have " + trialsLeft2-- +" trials left");
                 }
@@ -96,13 +99,15 @@ namespace Guesso
                   //Number has been guessed right within the minimum number of trials required
                 }
             } 
-            while (DiffNum == 3 && guessCount < guessLimit3 && secretNum3 != numGuessed)
+            while (DiffNum == 3 && guessCount < guessLimit3 && secretNum3 != numGuessed) 
+            //Game mode for hard
             {
                 Console.Write("Enter a number between 1-50: ");
                 numGuessed = int.Parse(Console.ReadLine());
                 guessCount++; 
 
                 if (secretNum3 != numGuessed && guessCount != guessLimit3)
+                 //guess count is less than guess limit and secret number has not been gotten
                 {
                   Console.WriteLine("That was wrong. You have " + trialsLeft3-- + " trials left");
                 }
@@ -114,6 +119,7 @@ namespace Guesso
                 {
                   Console.WriteLine("Congratulations, you win!");
                 }
+                //End of game...
             } 
 
 
